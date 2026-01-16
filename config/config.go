@@ -15,7 +15,7 @@ var (
 
 type Server struct {
 	Host string `env:"HOST" envDefault:"localhost"`
-	Port string `env:"PORT" envDefault:"8080"`
+	Port string `env:"PORT" envDefault:"3000"`
 }
 
 type Config struct {
